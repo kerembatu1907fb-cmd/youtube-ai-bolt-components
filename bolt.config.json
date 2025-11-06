@@ -1,0 +1,8 @@
+{
+  "build": {
+    "command": "echo 'Skipping build step (API only)'"
+  },
+  "start": {
+    "command": "node server.js"
+  }
+}
