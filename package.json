@@ -1,25 +1,31 @@
 {
-  "name": "my-app",
+  "name": "youtube-ai-bolt-components",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite",
+    "clean": "rimraf dist"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/react": "^18.3.1",
-    "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^4.3.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^4.7.0",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
-    "typescript": "^5.5.3",
-    "vite": "^5.4.2"
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21",
+    "rimraf": "^6.0.1"
   }
 }
